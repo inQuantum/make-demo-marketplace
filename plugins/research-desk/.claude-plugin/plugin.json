@@ -1,0 +1,6 @@
+{
+  "name": "research-desk",
+  "version": "1.0.0",
+  "description": "Researches a company, product or repository on demand and writes it up to a fixed shape.",
+  "author": { "name": "Make" }
+}
