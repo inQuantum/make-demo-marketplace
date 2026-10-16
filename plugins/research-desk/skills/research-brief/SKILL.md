@@ -8,6 +8,12 @@ description: Use when the user asks you to brief them on a company, product or m
 Triggered when someone wants to walk into a conversation informed. They want the brief, not a
 transcript of your searching.
 
+**Start searching immediately.** Do not ask whether they want a quick answer or a live one, do
+not ask which aspects to cover, do not announce what you are about to do. They asked for a
+brief; a question back is a worse answer than an imperfect brief. If something was genuinely
+ambiguous — two companies share the name — pick the likelier one, write the brief, and say
+which you picked in **Unknown**.
+
 ## Which tool
 
 Use **`tavily_search`** for every step below, and `tavily_extract` to pull a single page in full.
@@ -48,8 +54,12 @@ Always these five sections, in this order, nothing else:
 
 Keep the whole brief under 200 words. See `references/example-brief.md` for the shape.
 
+Output the five sections and nothing else. No preamble, no "here is your brief", no closing
+offer to dig deeper.
+
 ## Do not
 
 - Do not call `tavily_research`, or any tool that crawls a whole site. Both outlast the 30s limit.
+- Do not ask the user anything before searching, or offer them a choice of how to answer.
 - Do not cite a source you did not open.
 - Do not fill **Unknown** with something you half-remember. Gaps are the honest part.
