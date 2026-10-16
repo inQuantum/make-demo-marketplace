@@ -1,14 +1,15 @@
 {
-  "name": "Make Demo Plugins",
-  "metadata": { "pluginRoot": "plugins" },
+  "name": "make-demo-plugins",
+  "description": "A small marketplace used to demo Plugins in Make AI Agents.",
+  "owner": { "name": "Make" },
   "plugins": [
     {
       "name": "research-desk",
       "displayName": "Research Desk",
       "description": "Researches a company, product or repository on demand and writes it up to a fixed shape.",
       "category": "research",
-      "author": "Make",
-      "source": "./research-desk"
+      "author": { "name": "Make" },
+      "source": "./plugins/research-desk"
     }
   ]
 }

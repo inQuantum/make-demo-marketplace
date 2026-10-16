@@ -28,7 +28,7 @@ it as unsupported — that is expected, and everything else installs normally.
 
 ```
 .claude-plugin/marketplace.json     the catalog
-plugins/research-desk/              the plugin, resolved via metadata.pluginRoot
+plugins/research-desk/              the plugin
 ```
 
 The catalog follows the Claude Code marketplace format. Make also reads
