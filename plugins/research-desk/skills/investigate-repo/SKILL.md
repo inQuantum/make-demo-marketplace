@@ -1,6 +1,6 @@
 ---
 name: investigate-repo
-description: Use when asked what a public GitHub repository is, how it is built, or how one part of it works. Covers architecture, entry points and conventions.
+description: Load this FIRST, before calling any repository, documentation or search tool, whenever asked what a public GitHub repository is, how it is built, or how one part of it works. It names which tools to use and in what order; going straight to a tool returns a vague answer.
 ---
 
 # Investigating a repository

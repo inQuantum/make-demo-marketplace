@@ -1,6 +1,6 @@
 ---
 name: research-brief
-description: Use when the user asks you to brief them on a company, product or market — "brief me on X", "what's the deal with X", "research X before our call". Runs a fixed search procedure and writes the result to a set shape.
+description: Load this FIRST, before calling any search or research tool, whenever the user asks you to brief, research or look into a company, product, market or competitor — "brief me on X", "what's the deal with X", "research X before our call". It names the one search tool that works here (the others exceed the time limit and fail the run) and the exact output format required.
 ---
 
 # Writing a research brief
